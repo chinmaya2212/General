@@ -1,0 +1,42 @@
+[
+  {
+    "id": "Alert-01",
+    "title": "Brute Force Attempt on Banking Gateway",
+    "description": "Observed 500+ failed login attempts from unknown IP 192.168.45.10 on Asset-01.",
+    "severity": "high",
+    "status": "open",
+    "source": "Sentinel",
+    "asset_id": "Asset-01",
+    "indicators": ["192.168.45.10"]
+  },
+  {
+    "id": "Alert-02",
+    "title": "Unauthorized Data Export",
+    "description": "Large data transfer (4.2GB) detected from Customer Data Vault to external sink s3://bank-exports-prod.",
+    "severity": "critical",
+    "status": "open",
+    "source": "DLP",
+    "asset_id": "Asset-03",
+    "indicators": ["s3://bank-exports-prod"]
+  },
+  {
+    "id": "Alert-03",
+    "title": "Malicious Process Execution",
+    "description": "Detected 'mimikatz.exe' on SWIFT Message Router. Execution parent: PowerShell.exe.",
+    "severity": "critical",
+    "status": "open",
+    "source": "CrowdStrike",
+    "asset_id": "Asset-02",
+    "indicators": ["mimikatz.exe", "powershell.exe"]
+  },
+  {
+    "id": "Alert-04",
+    "title": "Suspicious User Login (Anomalous Location)",
+    "description": "User 'admin_tc' logged in from Pyongyang, North Korea. Expected: New York, USA.",
+    "severity": "medium",
+    "status": "open",
+    "source": "Azure AD",
+    "asset_id": "Asset-04",
+    "indicators": ["admin_tc", "Pyongyang"]
+  }
+]

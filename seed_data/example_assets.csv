@@ -1,0 +1,9 @@
+# Comprehensive Asset List
+id,name,type,owner,criticiality,status,ip_address,os,location
+Asset-01,Core Banking Gateway,server,Payments Team,high,active,10.0.1.5,RHEL 8,AWS-US-EAST-1
+Asset-02,SWIFT Message Router,server,Payments Team,high,active,10.0.1.6,RHEL 8,AWS-US-EAST-1
+Asset-03,Customer Data Vault,database,IAM Team,critical,active,10.0.2.10,PostgreSQL 14,AWS-US-EAST-1
+Asset-04,Admin Management Console,workstation,IT Ops,medium,active,10.0.5.25,Windows 11,Corporate Office
+Asset-05,Cloud Storage Sink,storage,DevOps,medium,active,s3://bank-exports-prod,N/A,AWS-S3
+Asset-06,E-Commerce Frontend,server,Web Team,high,active,10.0.1.20,Ubuntu 22.04,AWS-US-EAST-1
+Asset-07,Internal LDAP,directory,IT Ops,critical,active,10.0.2.5,Windows Server 2022,Corporate Office

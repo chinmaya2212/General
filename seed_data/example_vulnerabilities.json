@@ -1,0 +1,26 @@
+[
+  {
+    "id": "VULN-01",
+    "name": "CVE-2024-21413 (MonikerLink)",
+    "description": "Critical Outlook vulnerability allowing remote code execution via malicious link.",
+    "severity": "critical",
+    "cvss": 9.8,
+    "asset_id": "Asset-04"
+  },
+  {
+    "id": "VULN-02",
+    "name": "CVE-2021-44228 (Log4Shell)",
+    "description": "Apache Log4j2 JNDI features do not protect against attacker controlled LDAP and other JNDI related endpoints.",
+    "severity": "critical",
+    "cvss": 10.0,
+    "asset_id": "Asset-06"
+  },
+  {
+    "id": "VULN-03",
+    "name": "Misconfigured S3 Permissions",
+    "description": "Bucket 'bank-exports-prod' is publicly readable due to overly broad IAM policy.",
+    "severity": "high",
+    "cvss": 7.5,
+    "asset_id": "Asset-05"
+  }
+]

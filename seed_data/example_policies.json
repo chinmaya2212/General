@@ -1,0 +1,16 @@
+[
+  {
+    "id": "POL-01",
+    "name": "Access Control Policy",
+    "description": "All administrative access must use Multi-Factor Authentication.",
+    "framework": "ISO 27001",
+    "controls": ["AC-1", "AC-2"]
+  },
+  {
+    "id": "POL-02",
+    "name": "Data Encryption Standard",
+    "description": "Sensitive data at rest must be encrypted using AES-256.",
+    "framework": "NIST CSF",
+    "controls": ["SC-28"]
+  }
+]
